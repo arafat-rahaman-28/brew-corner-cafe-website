@@ -3,6 +3,9 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+	background-color: #fbf6ef;
+}
 /* RE-USABLE CSS CODES */
 .container {
 	max-width: 1200px;
@@ -16,6 +19,7 @@
 	border: none;
 	border-radius: 30px;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 /* STYLES FOR NAVBAR */
@@ -84,4 +88,93 @@ header nav .logo-section h2 {
 	margin-bottom: 30px;
 	font-size: 16px;
 	color: #f0e9dd;
+}
+
+/* STYLES FOR OUR STORY SECTION */
+.our-story-section {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+}
+.our-story-section .image-section img {
+	height: 386px;
+	border-radius: 12px;
+}
+.our-story-section .text-section h2 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #2e2622;
+	margin-bottom: 20px;
+}
+.our-story-section .text-section .first-story-paragraph {
+	font-size: 16px;
+	color: #5a4f47;
+	margin-bottom: 14px;
+}
+.our-story-section .text-section .second-story-paragraph {
+	margin-bottom: 20px;
+	font-size: 16px;
+	color: #5a4f47;
+}
+
+/* STYLES FOR POPULAR PICKS */
+.popular-picks {
+	text-align: center;
+	background-color: #f1e7d8;
+}
+.popular-picks .popular-picks-sub-heading {
+	color: #e9b44c;
+	font-size: 13px;
+	margin-bottom: 8px;
+}
+.popular-picks h2 {
+	color: #2e2622;
+	font-size: 34px;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+.popular-picks .popular-pick-cards .popular-pick-card {
+	background-color: white;
+	width: 230px;
+	height: 250px;
+	text-align: center;
+	padding: 25px;
+	border-radius: 14px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.popular-picks .popular-pick-cards .popular-pick-card img,
+h3,
+p {
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+.popular-picks .popular-pick-cards .popular-pick-card img {
+	height: 64px;
+	/* width: 54px; */
+}
+.popular-picks .popular-pick-cards .popular-pick-card h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.popular-picks .popular-pick-cards .popular-pick-card p {
+	text-align: center;
+
+	font-size: 16px;
+	color: #2e2622;
+}
+.popular-picks .popular-pick-cards .popular-pick-card .price {
+	font-size: 20px;
+	font-weight: bold;
+	color: #e9b44c;
+}
+.popular-picks .popular-pick-cards {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+.popular-picks {
+	padding: 80px 115px;
 }
