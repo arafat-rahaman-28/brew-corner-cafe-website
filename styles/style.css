@@ -295,6 +295,8 @@ p {
 /* STYLES FOR FOOTER SECTION */
 footer {
 	background-color: #2e2622;
+	padding-top: 30px;
+	padding-bottom: 50px;
 }
 footer .footer-logo {
 	display: flex;
@@ -340,4 +342,24 @@ footer .footer-logo {
 	color: #cfc6bb;
 	font-size: 18px;
 	margin-bottom: 12px;
+}
+.horizontal-line {
+	/* border-top: 1px solid white; */
+	border: none;
+	height: 0.2px;
+	background-color: #4a4a4ac3;
+}
+.footer-bottom-section p {
+	color: #cfc6bb;
+	font-size: 14px;
+}
+.footer-bottom-section {
+	padding-top: 18px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-bottom-section .social-media-icons {
+	display: flex;
+	gap: 14px;
 }
